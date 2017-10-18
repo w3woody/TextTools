@@ -23,7 +23,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		EF9C260A1F97980D00E989D6 /* TextTool */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TextTool; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF9C260A1F97980D00E989D6 /* texttool */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = texttool; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF9C260D1F97980D00E989D6 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -49,7 +49,7 @@
 		EF9C260B1F97980D00E989D6 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				EF9C260A1F97980D00E989D6 /* TextTool */,
+				EF9C260A1F97980D00E989D6 /* texttool */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -65,9 +65,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		EF9C26091F97980D00E989D6 /* TextTool */ = {
+		EF9C26091F97980D00E989D6 /* texttool */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EF9C26111F97980D00E989D6 /* Build configuration list for PBXNativeTarget "TextTool" */;
+			buildConfigurationList = EF9C26111F97980D00E989D6 /* Build configuration list for PBXNativeTarget "texttool" */;
 			buildPhases = (
 				EF9C26061F97980D00E989D6 /* Sources */,
 				EF9C26071F97980D00E989D6 /* Frameworks */,
@@ -77,9 +77,9 @@
 			);
 			dependencies = (
 			);
-			name = TextTool;
+			name = texttool;
 			productName = TextTool;
-			productReference = EF9C260A1F97980D00E989D6 /* TextTool */;
+			productReference = EF9C260A1F97980D00E989D6 /* texttool */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -109,7 +109,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				EF9C26091F97980D00E989D6 /* TextTool */,
+				EF9C26091F97980D00E989D6 /* texttool */,
 			);
 		};
 /* End PBXProject section */
@@ -259,7 +259,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EF9C26111F97980D00E989D6 /* Build configuration list for PBXNativeTarget "TextTool" */ = {
+		EF9C26111F97980D00E989D6 /* Build configuration list for PBXNativeTarget "texttool" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EF9C26121F97980D00E989D6 /* Debug */,

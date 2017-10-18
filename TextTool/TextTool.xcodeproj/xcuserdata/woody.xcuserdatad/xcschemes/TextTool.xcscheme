@@ -15,8 +15,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "EF9C26091F97980D00E989D6"
-               BuildableName = "TextTool"
-               BlueprintName = "TextTool"
+               BuildableName = "texttool"
+               BlueprintName = "texttool"
                ReferencedContainer = "container:TextTool.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -34,8 +34,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "EF9C26091F97980D00E989D6"
-            BuildableName = "TextTool"
-            BlueprintName = "TextTool"
+            BuildableName = "texttool"
+            BlueprintName = "texttool"
             ReferencedContainer = "container:TextTool.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -59,8 +59,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "EF9C26091F97980D00E989D6"
-            BuildableName = "TextTool"
-            BlueprintName = "TextTool"
+            BuildableName = "texttool"
+            BlueprintName = "texttool"
             ReferencedContainer = "container:TextTool.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -84,8 +84,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "EF9C26091F97980D00E989D6"
-            BuildableName = "TextTool"
-            BlueprintName = "TextTool"
+            BuildableName = "texttool"
+            BlueprintName = "texttool"
             ReferencedContainer = "container:TextTool.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>

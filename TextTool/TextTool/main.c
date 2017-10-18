@@ -161,17 +161,17 @@ static int WriteHeaderFile()
 	 *	Simple declaration
 	 */
 
-	fprintf(out,"/*  %s\n",scratch);
+	fprintf(out,"/*  %s.h\n",GOutputFileName);
 	fprintf(out," *\n");
 	fprintf(out," *      Automatically generated header\n");
 	fprintf(out," */\n");
 	fprintf(out,"\n");
-	fprintf(out,"#ifndef %s_h\n",GOutputFile);
-	fprintf(out,"#define %s_h\n",GOutputFile);
+	fprintf(out,"#ifndef %s_h\n",GOutputFileName);
+	fprintf(out,"#define %s_h\n",GOutputFileName);
 	fprintf(out,"\n");
 	fprintf(out,"extern const char %s[];\n",GStringName);
 	fprintf(out,"\n");
-	fprintf(out,"#endif /* %s_h */\n",GOutputFile);
+	fprintf(out,"#endif /* %s_h */\n",GOutputFileName);
 
 	fclose(out);
 	return 1;
@@ -208,25 +208,12 @@ static int WriteCFile()
 	 *	Top of file
 	 */
 
-	fprintf(out,"/*  %s\n",scratch);
+	fprintf(out,"/*  %s.c\n",GOutputFileName);
 	fprintf(out," *\n");
 	fprintf(out," *      Automatically generated source file\n");
 	fprintf(out," */\n");
 	fprintf(out,"\n");
-
-	/*
-	 *	Load header
-	 */
-
-	strncpy(scratch,GOutputFile,sizeof(scratch)-1);
-	strncat(scratch,".h",sizeof(scratch) - strlen(scratch) - 1);
-
-	fprintf(out,"#include \"%s\"\n",scratch);
-
-	/*
-	 *	Generate string declaration
-	 */
-
+	fprintf(out,"#include \"%s.h\"\n",GOutputFileName);
 	fprintf(out,"\n");
 	fprintf(out,"const char %s[] = ",GStringName);
 
