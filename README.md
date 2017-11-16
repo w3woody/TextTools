@@ -112,6 +112,7 @@ For **texttool**, the build rule uses a new rule for a new file extension. The s
     
     Output Files:
         $(INPUT_FILE_BASE).c
+        $(INPUT_FILE_BASE).h
 
 After this is done, .txc files will be compiled to .h and .c files of the same name. (You will need to explicitly add .txc files to your build process in your project file settings.)
 
